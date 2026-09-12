@@ -1,4 +1,5 @@
 import React from "react";
+import { FaCheck } from "react-icons/fa";
 export interface TechItem {
   id: string;
   name: string;
@@ -46,7 +47,7 @@ const TechCard: React.FC<TechCardProps> = ({ tech, onAddToStack, isAdded }) => {
         </div>
 
         <h3 className="text-xl font-bold text-slate-800 mb-2">{tech.name}</h3>
-        <p className="text-slate-400 text-sm leading-relaxed mb-6 min-h-[60px]">
+        <p className="text-slate-400 text-sm leading-relaxed mb-6 min-h-15">
           {tech.description}
         </p>
       </div>
@@ -74,7 +75,7 @@ const TechCard: React.FC<TechCardProps> = ({ tech, onAddToStack, isAdded }) => {
               : "bg-[#0b0f19] hover:bg-slate-800 text-white"
           }`}
         >
-          {isAdded ? "Added to Stack" : "Add to Stack"}
+          {isAdded ? " Added to Stack" : "Add to Stack"}
         </button>
       </div>
     </div>

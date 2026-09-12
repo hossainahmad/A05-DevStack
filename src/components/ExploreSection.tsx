@@ -69,7 +69,7 @@ export default function ExploreSection() {
             </Suspense>
           </div>
 
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-1 h-full">
             <YourStack
               selectedStack={selectedStack}
               onRemoveFromStack={handleRemoveFromStack}

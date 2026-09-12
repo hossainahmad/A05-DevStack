@@ -13,7 +13,7 @@ const YourStack = ({
   onClearAll,
 }: YourStackProps) => {
   return (
-    <div className="bg-white rounded-2xl border border-slate-100 p-6 shadow-xs sticky top-8">
+    <div className="bg-white rounded-2xl border border-slate-100 p-6 shadow-xs sticky top-24 self-start z-10">
       <div className="flex items-center justify-between mb-1">
         <h3 className="text-lg font-bold text-slate-900">Your Stack</h3>
         {selectedStack.length > 0 && (

@@ -3,6 +3,7 @@ import ExploreSection from "./components/ExploreSection";
 import Nav from "./components/Nav";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Nav></Nav>
       <Banner></Banner>
       <ExploreSection></ExploreSection>
+      <Footer></Footer>
       <ToastContainer
         position="bottom-right"
         autoClose={2500}
