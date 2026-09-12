@@ -24,7 +24,7 @@ const Nav = () => {
         </ul>
         <div className="flex gap-3">
           <button className="btn ">Sign In</button>
-          <button className="btn rounded-2xl bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white">
+          <button className="btn rounded-2xl bg-linear-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white">
             Sign Up
           </button>
         </div>
