@@ -46,9 +46,14 @@ const YourStack = ({
                     alt={item.name}
                     className="w-5 h-5 object-contain"
                   />
-                  <span className="text-sm font-semibold text-slate-700">
-                    {item.name}
-                  </span>
+                  <div className="flex flex-col">
+                    <span className="text-sm font-semibold text-slate-800 leading-tight">
+                      {item.name}
+                    </span>
+                    <span className="text-[11px] font-medium text-slate-400 mt-0.5">
+                      {item.category}
+                    </span>
+                  </div>
                 </div>
                 <button
                   onClick={() => onRemoveFromStack(item.id, item.name)}

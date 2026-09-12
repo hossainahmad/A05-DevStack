@@ -136,5 +136,15 @@
     "level": "Intermediate",
     "rating": "4.9",
     "description": "A powerful, open-source object-relational database system with proven reliability."
+  },
+  {
+    "id": "15",
+    "name": "GraphQL",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg",
+    "badge": "Popular API",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": "4.7",
+    "description": "A query language for your API and a server-side runtime for executing queries using a type system you define for your data."
   }
 ]

@@ -10,6 +10,23 @@ export default function Footer() {
               Curated tools, technologies, and resources for developers building
               modern software.
             </p>
+            <ul className="grid grid-flow-col gap-3 text-sm text-slate-500 mt-5">
+              <li className="link link-hover">
+                <a href="#github" className="hover:text-slate-900">
+                  GitHub
+                </a>
+              </li>
+              <li className="link link-hover">
+                <a href="#twitter" className="hover:text-slate-900">
+                  Twitter
+                </a>
+              </li>
+              <li className="link link-hover">
+                <a href="#linkedin" className="hover:text-slate-900">
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
           </div>
 
           <div>

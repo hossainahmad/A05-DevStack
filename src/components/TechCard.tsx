@@ -70,8 +70,8 @@ const TechCard: React.FC<TechCardProps> = ({ tech, onAddToStack, isAdded }) => {
           disabled={isAdded}
           className={`w-full py-2.5 px-4 rounded-xl font-semibold text-sm transition-colors ${
             isAdded
-              ? "bg-emerald-500 text-white cursor-default"
-              : "bg-[#0b0f19] hover:bg-slate-800 text-white"
+              ? "text-white bg-linear-to-br from-purple-600 to-blue-500 hover:bg-linear-to-bl focus:ring-4 focus:outline-none cursor-default"
+              : "text-white bg-linear-to-r from-purple-500 to-pink-500 hover:bg-linear-to-l focus:ring-4 focus:outline-none"
           }`}
         >
           {isAdded ? " Added to Stack" : "Add to Stack"}
