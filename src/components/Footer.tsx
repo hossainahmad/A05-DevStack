@@ -1,76 +1,94 @@
-import React from "react";
 import Logo from "../assets/logo-text.png";
-
-const Footer = () => {
+export default function Footer() {
   return (
-    <div className="container mx-auto border-t border-slate-200/60">
-      <footer className="footer sm:footer-horizontal text-base-content p-10 ">
-        <aside>
-          <img src={Logo} alt="" />
-          <p>
-            Build Your Website.
-            <br />
-            Curated tools, technologies, and resources for developers building{" "}
-            <br />
-            modern software.
-          </p>
-        </aside>
-        <nav>
-          <h6 className="footer-title text-black">PRODUCT</h6>
-          <a className="link link-hover">Home</a>
-          <a className="link link-hover">Technologies</a>
-          <a className="link link-hover">Design</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Careers</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Cookie policy</a>
-        </nav>
-      </footer>
-      <div className=" w-full bg-white">
-        <div className="max-w-7xl mx-auto px-6 md:px-16">
-          {/* Subtle Horizontal Divider */}
-          <div className="border-t border-slate-200/60" />
+    <footer className="w-full bg-white border-t border-slate-100 mt-20">
+      <div className="max-w-7xl mx-auto px-6 md:px-16">
+        <div className="py-12 grid grid-cols-1 md:grid-cols-5 gap-8">
+          <div className="md:col-span-2 flex flex-col items-start">
+            <img src={Logo} alt="" className="pb-3" />
+            <p className="text-slate-400 text-sm max-w-sm">
+              Curated tools, technologies, and resources for developers building
+              modern software.
+            </p>
+          </div>
 
-          {/* Footer Bottom Row */}
-          <div className="py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-normal text-slate-400">
-            <p>© 2026 Dev Stack. All rights reserved.</p>
+          <div>
+            <h4 className="text-xs font-bold footer-title mb-4">Product</h4>
+            <ul className="space-y-2 text-sm text-slate-500">
+              <li>
+                <a href="#home" className="hover:text-slate-900">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#tech" className="hover:text-slate-900">
+                  Technologies
+                </a>
+              </li>
+              <li>
+                <a href="#design" className="hover:text-slate-900">
+                  Design
+                </a>
+              </li>
+            </ul>
+          </div>
 
-            <div className="flex items-center gap-6">
-              <a
-                href="#privacy"
-                className="hover:text-slate-600 transition-colors"
-              >
-                Privacy
-              </a>
-              <a
-                href="#terms"
-                className="hover:text-slate-600 transition-colors"
-              >
-                Terms
-              </a>
-            </div>
+          <div>
+            <h4 className="text-xs font-bold footer-title mb-4">Company</h4>
+            <ul className="space-y-2 text-sm text-slate-500">
+              <li>
+                <a href="#about" className="hover:text-slate-900">
+                  About us
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="hover:text-slate-900">
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a href="#careers" className="hover:text-slate-900">
+                  Careers
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xs font-bold footer-title mb-4">Legal</h4>
+            <ul className="space-y-2 text-sm text-slate-500">
+              <li>
+                <a href="#privacy" className="hover:text-slate-900">
+                  Privacy policy
+                </a>
+              </li>
+              <li>
+                <a href="#terms" className="hover:text-slate-900">
+                  Terms of use
+                </a>
+              </li>
+              <li>
+                <a href="#cookie" className="hover:text-slate-900">
+                  Cookie policy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="border-t border-slate-100" />
+
+        <div className="py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+          <p>© 2026 DevStack. All rights reserved.</p>
+          <div className="flex items-center gap-6">
+            <a href="#privacy" className="hover:text-slate-600">
+              Privacy
+            </a>
+            <a href="#terms" className="hover:text-slate-600">
+              Terms
+            </a>
           </div>
         </div>
       </div>
-
-      {/* <div className="divider">
-        <aside className="text-gray-500">
-          <p>
-            Copyright © {new Date().getFullYear()} - All right reserved by
-            DevStack Ltd
-          </p>
-        </aside>
-      </div> */}
-    </div>
+    </footer>
   );
-};
-
-export default Footer;
+}

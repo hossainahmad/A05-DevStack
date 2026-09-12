@@ -1,5 +1,4 @@
 import React from "react";
-import { FaCheck } from "react-icons/fa";
 export interface TechItem {
   id: string;
   name: string;

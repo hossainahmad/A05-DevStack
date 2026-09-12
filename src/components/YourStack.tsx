@@ -16,14 +16,6 @@ const YourStack = ({
     <div className="bg-white rounded-2xl border border-slate-100 p-6 shadow-xs sticky top-24 self-start z-10">
       <div className="flex items-center justify-between mb-1">
         <h3 className="text-lg font-bold text-slate-900">Your Stack</h3>
-        {selectedStack.length > 0 && (
-          <button
-            onClick={onClearAll}
-            className="text-xs text-red-500 hover:text-white font-semibold btn btn-outline btn-secondary"
-          >
-            Clear All
-          </button>
-        )}
       </div>
 
       {selectedStack.length === 0 ? (
@@ -67,6 +59,12 @@ const YourStack = ({
               </div>
             ))}
           </div>
+          <button
+            onClick={onClearAll}
+            className="w-full mt-5 py-2.5 px-4 border border-rose-300 hover:bg-rose-50 rounded-xl text-rose-500 font-bold text-xs transition-colors"
+          >
+            Remove All
+          </button>
         </>
       )}
     </div>
