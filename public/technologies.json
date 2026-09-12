@@ -1,0 +1,140 @@
+[
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "badge": "Popular",
+    "category": "Language",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "A high-level, dynamic programming language that powers web interactive behavior and full-stack applications."
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "badge": "Standard",
+    "category": "Language",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+    "badge": "Fast",
+    "category": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build any design directly in markup."
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    "badge": "Standard",
+    "category": "DevOps",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "An open platform for developing, shipping, and running applications inside isolated environments called containers."
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+    "badge": "Versatile",
+    "category": "Mobile",
+    "level": "Intermediate",
+    "rating": "4.7",
+    "description": "Google's open-source UI toolkit for building natively compiled, multi-platform applications from a single codebase."
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    "badge": "Popular",
+    "category": "Database",
+    "level": "Beginner-Friendly",
+    "rating": "4.7",
+    "description": "A source-available, document-oriented NoSQL database system designed for high scalability and flexible JSON data storage."
+  },
+  {
+    "id": "angular",
+    "name": "AngularJS",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+    "category": "Frontend",
+    "level": "Advanced",
+    "rating": "4.5",
+    "description": "A structural framework for dynamic web apps that lets you use HTML as your template language and extend HTML syntax."
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    "badge": "Top Cloud",
+    "category": "Backend",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "A comprehensive app development platform backed by Google offering real-time databases, authentication, and hosting."
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "badge": "Popular",
+    "category": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": "4.9",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces."
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    "badge": "Versatile",
+    "category": "Frontend",
+    "level": "Beginner-Friendly",
+    "rating": "4.8",
+    "description": "An approachable, performant, and versatile framework for building web user interfaces."
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+    "badge": "Fast",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "Cybernetically enhanced web apps with compile-time reactivity and zero virtual DOM overhead."
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+    "category": "Frontend",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "The React framework for full-stack web applications with hybrid static & server rendering."
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    "badge": "Standard",
+    "category": "Backend",
+    "level": "Intermediate",
+    "rating": "4.8",
+    "description": "An asynchronous event-driven JavaScript runtime built on Chrome's V8 engine."
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    "badge": "Top SQL",
+    "category": "Database",
+    "level": "Intermediate",
+    "rating": "4.9",
+    "description": "A powerful, open-source object-relational database system with proven reliability."
+  }
+]
