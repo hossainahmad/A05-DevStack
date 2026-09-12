@@ -1,4 +1,4 @@
-import React, { Suspense, useState } from "react";
+import { Suspense, useState } from "react";
 import TechList from "./TechList";
 import YourStack from "./YourStack";
 import type { TechItem } from "./TechCard";
@@ -19,18 +19,24 @@ export default function ExploreSection() {
     }
 
     setSelectedStack((prev) => [...prev, tech]);
-    toast.success(`Added ${tech.name} to your stack!`);
+    toast.success(`Added ${tech.name} to your stack!`, {
+      icon: <span>🚀</span>,
+    });
   }
 
   function handleRemoveFromStack(techId: string, techName: string) {
     setSelectedStack((prev) => prev.filter((item) => item.id !== techId));
-    toast.info(`Removed ${techName} from stack.`);
+    toast.info(`Removed ${techName} from stack.`, {
+      icon: <span>🗑️</span>,
+    });
   }
 
   function handleClearAll() {
     if (selectedStack.length === 0) return;
     setSelectedStack([]);
-    toast.error("Cleared all technologies from your stack.");
+    toast.error("Removed all technologies from your stack.", {
+      icon: <span>🧹</span>,
+    });
   }
 
   return (
