@@ -10,10 +10,10 @@
 
 ## Technology I used
 
- **Frontend Library:** React JS (Functional Components)
- **Programming Language:** TypeScript
- **Styling Framework:** Tailwind CSS and DaisyUI
- **Notification Management:** React Toastify
+ - **Frontend Library:** React JS (Functional Components)
+ - **Programming Language:** TypeScript
+ - **Styling Framework:** Tailwind CSS and DaisyUI
+ - **Notification Management:** React Toastify
 
 </div>
 
