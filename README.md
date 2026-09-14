@@ -31,7 +31,7 @@
    Built using clean, modern functional components (`Navbar`, `Banner`, `ExploreSection`, `TechCard`, `YourStack`, `Footer`) to promote code reusability, single-responsibility logic, and maintainability.
 
 2. ⚡ **State Management (`useState` Hook)**  
-   Utilized `useState` to manage complex dynamic interactions across the app, including mobile menu toggling (`isOpen`) and managing selected items within the "Your Stack" drawer array.
+   Utilized `useState` to manage complex dynamic interactions across the app and manage selected items within the "Your Stack" array.
 
 3. 🔀 **Props & Event Callback Handlers**  
    Implemented unidirectional data flow by passing down data via `props` and lifting state up through custom callback functions like `onToggleStack`, `onRemoveFromStack`, and `onClearAll`.
